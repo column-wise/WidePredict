@@ -72,13 +72,13 @@
 
 - TensorRT로 변환된 YOLO 모델 파일이 필요합니다.
 - 아래 링크를 통해 YOLO 모델 파일을 다운로드한 후, `yolo/` 디렉토리에 저장하세요:
-  - [YOLO 모델 다운로드 링크](https://example.com/yolo-model)
+  - [YOLO 모델 다운로드 링크](https://github.com/AlexeyAB/darknet?tab=readme-ov-file)
 
 #### (2) SGAN 모델 (`sgan/scripts/models/[모델 이름].pt`)
 
 - SGAN 경로 예측을 위해 사전 학습된 모델 파일이 필요합니다.
 - 아래 링크에서 SGAN 모델 파일을 다운로드한 후, `sgan/scripts/models/` 디렉토리에 저장하세요:
-  - [SGAN 모델 다운로드 링크](https://example.com/sgan-model)
+  - [SGAN 모델 다운로드 링크](https://github.com/agrimgupta92/sgan)
 
 ---
 
@@ -105,7 +105,7 @@ WidePredict/
 
 ## **참고 자료**
 
-- [TensorRT YOLO GitHub 저장소](https://github.com/NVIDIA-AI-IOT/tensorrt_demos): TensorRT를 사용한 YOLO 모델 최적화 및 변환 가이드.
+- [TensorRT YOLO GitHub 저장소](https://github.com/AlexeyAB/darknet?tab=readme-ov-file): TensorRT를 사용한 YOLO 모델 최적화 및 변환 가이드.
 - [SGAN GitHub 저장소](https://github.com/agrimgupta92/sgan): SGAN(Social GAN) 모델 코드 및 사전 학습된 모델 제공.
 - [YOLO 모델 정보](https://pjreddie.com/darknet/yolo/): YOLO(You Only Look Once) 모델 설명 및 다운로드.
 
